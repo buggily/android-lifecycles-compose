@@ -7,6 +7,7 @@ object Dependency {
         }
 
         const val UI = "androidx.compose.ui:ui:${Version.Compose.IDENTITY}"
+        const val MATERIAL = "androidx.compose.material:material:${Version.Compose.IDENTITY}"
         const val COMPILER = "androidx.compose.compiler:compiler:${Version.Compose.COMPILER}"
         const val FOUNDATION = "androidx.compose.foundation:foundation:${Version.Compose.IDENTITY}"
 

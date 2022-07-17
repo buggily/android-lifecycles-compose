@@ -38,6 +38,7 @@ android {
 
 dependencies {
     implementation(Dependency.Compose.UI)
+    implementation(Dependency.Compose.MATERIAL)
     implementation(Dependency.Compose.FOUNDATION)
 
     implementation(Dependency.Compose.ACTIVITY)
