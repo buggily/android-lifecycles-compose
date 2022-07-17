@@ -38,6 +38,8 @@ android {
 
 dependencies {
     implementation(Dependency.Compose.UI)
+    implementation(Dependency.Compose.FOUNDATION)
+
     implementation(Dependency.Compose.ACTIVITY)
     implementation(Dependency.Compose.VIEW_MODEL)
 
