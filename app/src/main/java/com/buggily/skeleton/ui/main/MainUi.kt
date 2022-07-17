@@ -1,12 +1,15 @@
 package com.buggily.skeleton.ui.main
 
 import androidx.compose.runtime.Composable
-import com.buggily.skeleton.ui.SkeletonTheme
-import com.buggily.skeleton.ui.home.HomeScreen
+import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun MainScreen() {
-    SkeletonTheme {
-        HomeScreen()
-    }
+
+}
+
+@Preview
+@Composable
+private fun MainScreenPreview() {
+    MainScreen()
 }
