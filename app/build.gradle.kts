@@ -43,6 +43,7 @@ dependencies {
 
     implementation(Dependency.Compose.ACTIVITY)
     implementation(Dependency.Compose.VIEW_MODEL)
+    implementation(Dependency.Compose.LIVEDATA)
 
     debugImplementation(Dependency.Compose.Preview.IDENTITY)
     implementation(Dependency.Compose.Preview.PREVIEW)

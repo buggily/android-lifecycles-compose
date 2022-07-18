@@ -13,5 +13,6 @@ object Dependency {
 
         const val ACTIVITY = "androidx.activity:activity-compose:${Version.Compose.ACTIVITY}"
         const val VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-compose:${Version.Compose.VIEW_MODEL}"
+        const val LIVEDATA = "androidx.compose.runtime:runtime-livedata:${Version.Compose.IDENTITY}"
     }
 }
