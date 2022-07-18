@@ -2,14 +2,19 @@ package com.buggily.skeleton.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(private val state: SavedStateHandle) : ViewModel() {
 
-    private val _value: MutableLiveData<String> = MutableLiveData()
+    private val _value: MutableLiveData<String> = state.getLiveData(VALUE, String())
     val value: LiveData<String> = _value
 
     fun onValueChange(value: String) {
-        _value.value = value
+        state[VALUE] = value
+    }
+
+    private companion object {
+        private const val VALUE = "value"
     }
 }
