@@ -1,9 +1,9 @@
-package com.buggily.skeleton.ui.main
+package com.buggily.alc.ui.main
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.buggily.skeleton.ui.home.HomeScreen
+import com.buggily.alc.ui.home.HomeScreen
 
 @Composable
 fun MainScreen() {

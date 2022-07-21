@@ -47,7 +47,4 @@ dependencies {
 
     debugImplementation(Dependency.Compose.Preview.IDENTITY)
     implementation(Dependency.Compose.Preview.PREVIEW)
-
-    implementation("androidx.savedstate:savedstate-ktx:1.2.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0")
 }

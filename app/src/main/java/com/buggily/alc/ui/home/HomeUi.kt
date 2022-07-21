@@ -1,4 +1,4 @@
-package com.buggily.skeleton.ui.home
+package com.buggily.alc.ui.home
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
